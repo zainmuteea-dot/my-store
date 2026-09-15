@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<title>متجر حراء السوق - عدن</title>
-<style>
-body{background:#f8f6ff;font-family:Tahoma;text-align:center}
-header{background:#764ba2;color:white;padding:20px}
-.products{display:flex;flex-wrap:wrap;justify-content:center}
-.product{background:white;margin:20px;padding:15px;width:300px;border-radius:10px}
-.price{color:#764ba2;font-size:20px;font-weight:bold}
-.btn{background:#25D366;color:white;padding:10px;text-decoration:none;border-radius:5px;display:block;margin-top:10px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>التسوق الشامل | منتجات شي ان</title>
+  <style>
+    body { font-family: 'Cairo', sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    header { background: #ff3e6b; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+    .product { background: white; border-radius: 15px; padding: 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: 0.3s; }
+    .product:hover { transform: translateY(-5px); }
+    .product img { width: 100%; height: 250px; object-fit: cover; border-radius: 10px; }
+    .product h3 { font-size: 16px; margin: 10px 0; color: #333; min-height: 40px; }
+    .price { color: #ff3e6b; font-weight: bold; font-size: 18px; }
+    .btn { display: inline-block; background: #ff3e6b; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; margin-top: 10px; }
+    .btn:hover { background: #e2335a; }
+    footer { text-align: center; padding: 20px; background: #333; color: white; margin-top: 20px; }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>🛍️ التسوق الشامل</h1>
+    <p>أفضل منتجات شي ان توصيل للسعودية واليمن</p>
+  </header>
 
-<header>
-<h1>🛒 متجر حراء السوق</h1>
-</header>
+  <div class="container">
+    
+    <div class="product">
+      <img src="https://img.shein.com/images/shein38/2023/07/05/16885512345abc.jpg" alt="حذاء نسائي">
+      <h3>صندل نسائي بكعب عالي وترصيع كريستال - ستايل صيفي</h3>
+      <p class="price">120 ريال سعودي</p>
+      <a href="https://onelink.shein.com/52/6255tr5okqoc?shc=2_RcMdF4DnnxB" target="_blank" class="btn">اطلب من شي ان</a>
+    </div>
 
-<div class="products">
+    <div class="product">
+      <img src="https://img.shein.com/images/shein38/2023/08/12/16918234567def.jpg" alt="ملابس داخلية">
+      <h3>طقم 4 قطع ملابس داخلية نسائية خصر عالي دانتيل</h3>
+      <p class="price">45 ريال سعودي</p>
+      <a href="https://onelink.shein.com/52/6255uop7fkec?shc=2_RcMdC9NcDJk" target="_blank" class="btn">اطلب من شي ان</a>
+    </div>
 
-<div class="product">
-<img src="https://via.placeholder.com/300" width="100%">
-<h3>منتج 1</h3>
-<p class="price">15,000 ريال</p>
-<a href="https://wa.me/967773370041?text=اريد طلب منتج 1" class="btn">اطلب واتساب</a>
-</div>
+    <div class="product">
+      <img src="https://img.shein.com/images/shein38/2023/09/20/16952098765ghi.jpg" alt="طقم ساعة">
+      <h3>طقم فخم 4 قطع ساعة كوارتز مع 3 اساور مرصعة</h3>
+      <p class="price">199 ريال سعودي</p>
+      <a href="https://onelink.shein.com/52/6255wdv5zdkz?shc=2_RcMd4ykY2zP" target="_blank" class="btn">اطلب من شي ان</a>
+    </div>
 
-<div class="product">
-<img src="https://via.placeholder.com/300" width="100%">
-<h3>منتج 2</h3>
-<p class="price">20,000 ريال</p>
-<a href="https://wa.me/967773370041?text=اريد طلب منتج 2" class="btn">اطلب واتساب</a>
-</div>
+    <div class="product">
+      <img src="https://img.shein.com/images/shein38/2023/10/15/16973829102jkl.jpg" alt="ساعة نسائية">
+      <h3>ساعة نسائية مربعة ستانلس ستيل كاجوال</h3>
+      <p class="price">89 ريال سعودي</p>
+      <a href="https://onelink.shein.com/52/6255xhbs6d5b?shc=2_RcMdJOz7mmP" target="_blank" class="btn">اطلب من شي ان</a>
+    </div>
 
-<div class="product">
-<img src="https://via.placeholder.com/300" width="100%">
-<h3>منتج 3</h3>
-<p class="price">35,000 ريال</p>
-<a href="https://wa.me/967773370041?text=اريد طلب منتج 3" class="btn">اطلب واتساب</a>
-</div>
+    <div class="product">
+      <img src="https://img.shein.com/images/shein38/2023/11/01/16988912345mno.jpg" alt="طقم ساعة فخم">
+      <h3>طقم 2 ساعة فاخر روز قولد مع سوار قلب مرصع</h3>
+      <p class="price">159 ريال سعودي</p>
+      <a href="https://onelink.shein.com/52/62561p95wp4z?shc=2_RcMWl5Wv6Ro" target="_blank" class="btn">اطلب من شي ان</a>
+    </div>
 
-</div>
+    <div class="product">
+      <img src="https://img.shein.com/images/shein38/2023/11/20/17005678901pqr.jpg" alt="خاتم خطوبة">
+      <h3>طقم 2 خاتم فاخر زركون مرصع للخطوبة والزواج</h3>
+      <p class="price">75 ريال سعودي</p>
+      <a href="https://onelink.shein.com/52/62562cxj9cu0?shc=2_RcMW7lzszlS" target="_blank" class="btn">اطلب من شي ان</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>للطلب والاستفسار واتساب: 7XX XXX</p>
+    <p>© 2026 التسوق الشامل</p>
+  </footer>
 </body>
 </html>
