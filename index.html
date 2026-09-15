@@ -2,26 +2,38 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>متجر التسوق الشامل</title>
+  <title>متجر الشامل - من اليمن إلى العالم</title>
   <style>
-    body{font-family:Arial; background:#f5f5f5; margin:0; padding:20px}
-    h1{text-align:center; color:#333}
-    .products{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px}
-    .card{background:white; padding:15px; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1)}
-    .card img{width:100%; height:200px; object-fit:cover; border-radius:8px}
-    .price{color:#e91e63; font-weight:bold; font-size:18px}
-    button{background:#4CAF50; color:white; border:none; padding:10px; width:100%; border-radius:5px; cursor:pointer}
+    body { background: #8F5F5F; margin: 0; font-family: Tahoma; }
+    h1 { color: #8333CC; text-align: center; }
+    .منتج { background: rgba(0,0,0,0.1); border-radius: 10px; padding: 10px; margin: 10px; text-align: center; width: 200px; display: inline-block; }
+    .منتج img { width: 100%; border-radius: 8px; }
+    .سعر { color: #8E91E63; font-size: 18px; font-weight: bold; }
+    .زر { background: #4CAF50; color: white; padding: 10px; width: 100%; border: none; border-radius: 5px; }
+    .شبكة { text-align: center; }
   </style>
 </head>
 <body>
   <h1>🛒 متجر التسوق الشامل</h1>
-  <div class="products">
-    <div class="card"><img src="https://via.placeholder.com/300"><h3>منتج 1</h3><p>وصف المنتج</p><p class="price">100 ريال</p><button>اضف للسلة</button></div>
-    <div class="card"><img src="https://via.placeholder.com/300"><h3>منتج 2</h3><p>وصف المنتج</p><p class="price">150 ريال</p><button>اضف للسلة</button></div>
-    <div class="card"><img src="https://via.placeholder.com/300"><h3>منتج 3</h3><p>وصف المنتج</p><p class="price">200 ريال</p><button>اضف للسلة</button></div>
-    <div class="card"><img src="https://via.placeholder.com/300"><h3>منتج 4</h3><p>وصف المنتج</p><p class="price">120 ريال</p><button>اضف للسلة</button></div>
-    <div class="card"><img src="https://via.placeholder.com/300"><h3>منتج 5</h3><p>وصف المنتج</p><p class="price">80 ريال</p><button>اضف للسلة</button></div>
-    <div class="card"><img src="https://via.placeholder.com/300"><h3>منتج 6</h3><p>وصف المنتج</p><p class="price">250 ريال</p><button>اضف للسلة</button></div>
+  <div class="شبكة">
+    <div class="منتج">
+      <img src="https://via.placeholder.com/300">
+      <h3>قميص</h3>
+      <p>سعر: 100﷼</p>
+      <button class="زر">اطلب الان</button>
+    </div>
+    <div class="منتج">
+      <img src="https://via.placeholder.com/300">
+      <h3>بنطلون</h3>
+      <p>سعر: 150﷼</p>
+      <button class="زر">اطلب الان</button>
+    </div>
+    <div class="منتج">
+      <img src="https://via.placeholder.com/300">
+      <h3>فستان</h3>
+      <p>سعر: 200﷼</p>
+      <button class="زر">اطلب الان</button>
+    </div>
   </div>
 </body>
 </html>
